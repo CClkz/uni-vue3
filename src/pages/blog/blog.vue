@@ -1,22 +1,22 @@
 <script lang="ts" setup>
-import { ref } from "vue";
+import { ref } from 'vue';
 // 引入 onLoad 钩子
-import { onLoad, onShow } from "@dcloudio/uni-app";
+import { onLoad, onShow } from '@dcloudio/uni-app';
 
-onLoad((options) => {
+onLoad(options => {
   // 页面加载时会调用这里
-  console.log("blog 页面 onLoad", options);
+  console.log('blog 页面 onLoad', options);
 });
 
 onShow(() => {
   // 页面显示时会调用这里
-  console.log("blog 页面 onShow");
+  console.log('blog 页面 onShow');
 });
 
 const blog = ref({
-  title: "uni-app 博客示例",
-  author: "GitHub Copilot",
-  date: "2026-03-10",
+  title: 'uni-app 博客示例',
+  author: 'GitHub Copilot',
+  date: '2026-03-10',
   content: `
 		uni-app 是一个使用 Vue.js 开发所有前端应用的框架，支持编译到 iOS、Android、H5 以及各种小程序平台。
 		本页面为博客内容演示，包含标题、作者、时间、正文和点赞功能。

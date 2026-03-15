@@ -14,14 +14,14 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-const title = ref('Hello')
+import { ref } from 'vue';
+const title = ref('Hello');
 // 跳转到 blog 页面
 const goBlog = () => {
   uni.switchTab({
     url: '/pages/blog/blog',
-  })
-}
+  });
+};
 </script>
 
 <style>

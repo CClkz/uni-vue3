@@ -31,7 +31,6 @@ function like() {
 
 <template>
   <view class="blog-container">
-    <div class="blog-header">22</div>
     <view class="blog-title">{{ blog.title }}</view>
     <view class="blog-meta">
       <text>作者：{{ blog.author }}</text>

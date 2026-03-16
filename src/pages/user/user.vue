@@ -1,7 +1,7 @@
 <template>
   <view class="user-center">
     <!-- 用户头像和基本信息区域 -->
-    <view class="user-header">
+    <view class="user-header"> 
       <image
         v-if="isLoggedIn"
         class="avatar"

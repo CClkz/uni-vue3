@@ -1,5 +1,5 @@
 {
-    "name" : "uni-vue3",
+    "name" : "cc-app",
     "appid" : "__UNI__0A2B10A",
     "description" : "",
     "versionName" : "1.0.0",
@@ -15,7 +15,9 @@
             "autoclose" : true,
             "delay" : 0
         },
-        "modules" : {},
+        "modules" : {
+            "Payment" : {}
+        },
         "distribute" : {
             "android" : {
                 "permissions" : [
@@ -37,7 +39,20 @@
                 ]
             },
             "ios" : {},
-            "sdkConfigs" : {}
+            "sdkConfigs" : {
+                "payment" : {
+                    "weixin" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appid" : "",
+                        "UniversalLinks" : ""
+                    }
+                }
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : ""
+                }
+            }
         }
     },
     "quickapp" : {},
